@@ -1,6 +1,8 @@
 :root{
 
     --primary-color: red;
+
+    --images-height:100px;
 }
 
 *{
@@ -50,9 +52,10 @@ footer>*{
 
 
 .masonryImage{
-    width:80vw;
+    width:80%;
     height:auto;
     padding:10px;
+
 }
 
 
@@ -62,5 +65,48 @@ footer>*{
     flex-wrap:wrap;
     width:100vw;
     margin:0 auto;
+    align-items: center;
 
+}
+
+.image{
+    height:20%;
+}
+
+@media screen and (min-width:650px) {
+    .masonryImage{
+        width:65%;
+        max-width: 300px;
+    }
+
+    .images{
+        max-height: 1500px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .masonryImage{
+        width:30%;
+        max-width: 250px;
+    }
+
+    .images{
+        max-height: 2500px;
+    }
+
+    
+}
+
+
+@media screen and (min-width:1440px) {
+    .masonryImage{
+        width:25%;
+        max-width: 300px;
+    }
+
+    .images{
+        max-height: 1000px;
+    }
+
+    
 }
