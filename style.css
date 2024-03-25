@@ -1,0 +1,39 @@
+:root{
+
+    --primary-color: red;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header , footer{
+    padding: 4rem;
+    background-color:var(--primary-color);
+    
+}
+
+.logo{
+    margin: 0 auto;
+    width:fit-content;
+}
+
+
+header img, footer img{
+    height: 40px;
+    
+}
+
+footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer>*{
+    margin:10px;
+}
