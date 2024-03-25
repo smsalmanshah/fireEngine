@@ -12,7 +12,8 @@
 header , footer{
     padding: 4rem;
     background-color:var(--primary-color);
-    
+    text-align: center;
+
 }
 
 .logo{
@@ -26,6 +27,15 @@ header img, footer img{
     
 }
 
+
+h1{
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+p{
+    font-family: 'kanit';
+}
 footer{
     display:flex;
     flex-wrap: wrap;
@@ -36,4 +46,21 @@ footer{
 
 footer>*{
     margin:10px;
+}
+
+
+.masonryImage{
+    width:80vw;
+    height:auto;
+    padding:10px;
+}
+
+
+.images{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    width:100vw;
+    margin:0 auto;
+
 }
