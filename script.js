@@ -1,7 +1,7 @@
-masonryImages=document.querySelectorAll('.masonryImage');
 imagesSection=document.querySelector('.images');
 root=document.documentElement;
 
+masonryImages=document.querySelectorAll('.masonryImage');
 let totalImageHeight=10;
 
 for (image of masonryImages){

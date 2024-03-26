@@ -52,9 +52,11 @@ footer>*{
 
 
 .masonryImage{
-    width:80%;
+    width:40%;
+    max-width:200px;
     height:auto;
     padding:10px;
+
 
 }
 
@@ -66,42 +68,29 @@ footer>*{
     width:100vw;
     margin:0 auto;
     align-items: center;
-
+    height:2500px;
 }
 
-.image{
-    height:20%;
-}
 
-@media screen and (min-width:650px) {
-    .masonryImage{
-        width:65%;
-        max-width: 300px;
-    }
-
-    .images{
-        max-height: 1500px;
-    }
-}
 
 @media screen and (min-width:768px) {
     .masonryImage{
-        width:30%;
+        width:20%;
         max-width: 250px;
     }
 
     .images{
-        max-height: 2500px;
+        max-height: 1500px;
     }
 
     
 }
 
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1280px) {
     .masonryImage{
-        width:25%;
-        max-width: 300px;
+        width:15%;
+        max-width: 250px;
     }
 
     .images{
